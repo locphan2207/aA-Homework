@@ -5,6 +5,10 @@ class Board
     @name1 = name1
     @name2 = name2
     @cups = Array.new(14)
+  end
+
+  def place_stones
+    # helper method to #initialize every non-store cup with four stones each
     @cups.map!.with_index do |cup, idx| 
       if idx != 6 && idx != 13
         Array.new(4){:stone} 
@@ -12,10 +16,6 @@ class Board
         [] 
       end
     end
-  end
-
-  def place_stones
-    # helper method to #initialize every non-store cup with four stones each
   end
 
   def valid_move?(start_pos)
