@@ -9,7 +9,7 @@ $.ajax({
     console.log(weather);
   },
   error() {
-    console.error("An error occurred.");
+    console.error('An error occurred.');
   },
 });
 
