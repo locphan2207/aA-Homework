@@ -1,0 +1,70 @@
+/* body {
+  position: absolute;
+} */
+
+.background {
+  position: absolute;
+  z-index: -1;
+  /* background-position: center; */
+  background-size: cover;
+  width: 100%;
+  /* opacity: 0.3; */
+}
+
+.main {
+  min-height: 800px;
+}
+
+.text-background {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  background-color: rgba(0,0,0,0.5);
+  /* opacity: 0.5; */
+  border-radius: 10px;
+}
+
+.intro-text {
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  text-align: left;
+  padding: 20px 20px 100px 20px;
+}
+
+.text-1 {
+  padding: 10px;
+  font-size: 60px;
+}
+
+.text-2 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.text-3 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar, .footer {
+  width: 100%;
+  padding: 15px 0 15px 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.nav-buttons {
+  /* padding-right: 10px; */
+  height: 100%;
+}
+
+.nav-buttons>a {
+  padding: 10px 20px;
+  color: white;
+  /* background: rgb(153,153,0); */
+  border: 1px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-right: 10px;
+}
